@@ -19,6 +19,20 @@ _*example: python3 jxa-macro.py -u http://192.168.1.1:8000/apfell2.js*_
 
 5. Copy and paste that macro into an MS Office doc.
 
+
+---------
+
+**Detection:**
+
+This macro spawns the following parent-child relationships that can be used for detection:
+
+Office Product (ex: Microsoft Word.app) --> /bin/sh
+
+Office Product (ex: Microsoft Word.app) --> /bin/bash
+
+Office Product (ex: Microsoft Word.app) --> /usr/bin/curl
+
+
 ---------
 
 **Note: This will launch the JXA payload inside of the App Sandbox. However, Mythic does have the ability to add Login Item persistence even from the App Sandbox.
