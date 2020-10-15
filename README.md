@@ -5,7 +5,7 @@ This script generates an Office macro doc which uses osascript to download and e
 
 Steps:
 
-1. Set up Mythic C2 server and generate an "apfell" jxa payload (note: this generator assumes that the payload is using http not https). Download that payload on the Mythic server.
+1. Set up Mythic C2 server and generate an "apfell" jxa payload (note: this generator assumes that the payload is using http not https...if you are using https instead, you can just modify the generator script to have curl use https). Download that payload on the Mythic server.
 
 2. Host that payload (ex: put the .js payload in a folder and use python -m SimpleHTTPServer to host)
 
