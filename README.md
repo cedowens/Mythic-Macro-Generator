@@ -1,7 +1,7 @@
 # Mythic-Macro-Generator
 Python3 script to generate MS Office macros for launching Mythic JXA payloads.
 
-This script generates an Office macro doc which uses osascript to download and execute the Mythic JXA .js payload. 
+This script generates an Office macro which uses osascript to download and execute the Mythic JXA .js payload. 
 
 Steps:
 
